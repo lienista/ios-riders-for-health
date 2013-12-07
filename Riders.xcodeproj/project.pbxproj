@@ -24,6 +24,7 @@
 		FC4A51FE1852C93D000104BD /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4A51FD1852C93D000104BD /* MapViewController.m */; };
 		FC4A52011852CA37000104BD /* PeopleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4A52001852CA37000104BD /* PeopleViewController.m */; };
 		FC4A52041852CA97000104BD /* PlacesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4A52031852CA97000104BD /* PlacesViewController.m */; };
+		FC4A52071852CD35000104BD /* SyncViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4A52061852CD35000104BD /* SyncViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		FC4A52001852CA37000104BD /* PeopleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleViewController.m; sourceTree = "<group>"; };
 		FC4A52021852CA97000104BD /* PlacesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlacesViewController.h; sourceTree = "<group>"; };
 		FC4A52031852CA97000104BD /* PlacesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacesViewController.m; sourceTree = "<group>"; };
+		FC4A52051852CD35000104BD /* SyncViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncViewController.h; sourceTree = "<group>"; };
+		FC4A52061852CD35000104BD /* SyncViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyncViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +135,8 @@
 				FC4A52001852CA37000104BD /* PeopleViewController.m */,
 				FC4A52021852CA97000104BD /* PlacesViewController.h */,
 				FC4A52031852CA97000104BD /* PlacesViewController.m */,
+				FC4A52051852CD35000104BD /* SyncViewController.h */,
+				FC4A52061852CD35000104BD /* SyncViewController.m */,
 				FC4A51DF185292C4000104BD /* Images.xcassets */,
 				FC4A51CE185292C4000104BD /* Supporting Files */,
 			);
@@ -270,6 +275,7 @@
 				FC4A51D4185292C4000104BD /* main.m in Sources */,
 				FC4A51D8185292C4000104BD /* RidersAppDelegate.m in Sources */,
 				FC4A52011852CA37000104BD /* PeopleViewController.m in Sources */,
+				FC4A52071852CD35000104BD /* SyncViewController.m in Sources */,
 				FC4A51FE1852C93D000104BD /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
