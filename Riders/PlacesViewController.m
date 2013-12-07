@@ -44,9 +44,9 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
+//#warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 #pragma mark - UITableViewDataSource
@@ -59,7 +59,7 @@
          cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView
-                             dequeueReusableCellWithIdentifier:@"Location"];
+                             dequeueReusableCellWithIdentifier:@"Place"];
     UILabel *descriptionLabel = (UILabel *)[cell viewWithTag:100];
     descriptionLabel.text = @"If you can see this";
     UILabel *addressLabel = (UILabel *)[cell viewWithTag:101];
