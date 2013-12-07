@@ -49,22 +49,24 @@
     return 0;
 }
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+#pragma mark - UITableViewDataSource
+- (NSInteger)tableView:(UITableView *)tableView
+ numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
-    // Return the number of rows in the section.
-    return 0;
+    return 1;
 }
-
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+- (UITableViewCell *)tableView:(UITableView *)tableView
+         cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
+    UITableViewCell *cell = [tableView
+                             dequeueReusableCellWithIdentifier:@"Location"];
+    UILabel *descriptionLabel = (UILabel *)[cell viewWithTag:100];
+    descriptionLabel.text = @"If you can see this";
+    UILabel *addressLabel = (UILabel *)[cell viewWithTag:101];
+    addressLabel.text = @"Then it works!";
     return cell;
 }
+
 
 /*
 // Override to support conditional editing of the table view.
