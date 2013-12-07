@@ -27,7 +27,7 @@
         <scene sceneID="NtM-DQ-P3p">
             <objects>
                 <tabBarController definesPresentationContext="YES" id="JnS-Nh-1P5" sceneMemberID="viewController">
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="1tC-cC-9yl">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -115,7 +115,7 @@
                             <outlet property="delegate" destination="7kw-D0-fYN" id="9Bo-Fj-OBc"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Sync Data" id="bbb-9t-7l2"/>
+                    <tabBarItem key="tabBarItem" title="Settings" id="bbb-9t-7l2"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kHd-r3-EQM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
