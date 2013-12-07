@@ -21,6 +21,9 @@
 		FC4A51E9185292C4000104BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4A51CB185292C4000104BD /* UIKit.framework */; };
 		FC4A51F1185292C4000104BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC4A51EF185292C4000104BD /* InfoPlist.strings */; };
 		FC4A51F3185292C4000104BD /* RidersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4A51F2185292C4000104BD /* RidersTests.m */; };
+		FC4A51FE1852C93D000104BD /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4A51FD1852C93D000104BD /* MapViewController.m */; };
+		FC4A52011852CA37000104BD /* PeopleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4A52001852CA37000104BD /* PeopleViewController.m */; };
+		FC4A52041852CA97000104BD /* PlacesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4A52031852CA97000104BD /* PlacesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		FC4A51EE185292C4000104BD /* RidersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RidersTests-Info.plist"; sourceTree = "<group>"; };
 		FC4A51F0185292C4000104BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FC4A51F2185292C4000104BD /* RidersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RidersTests.m; sourceTree = "<group>"; };
+		FC4A51FC1852C93D000104BD /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		FC4A51FD1852C93D000104BD /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		FC4A51FF1852CA37000104BD /* PeopleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleViewController.h; sourceTree = "<group>"; };
+		FC4A52001852CA37000104BD /* PeopleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleViewController.m; sourceTree = "<group>"; };
+		FC4A52021852CA97000104BD /* PlacesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlacesViewController.h; sourceTree = "<group>"; };
+		FC4A52031852CA97000104BD /* PlacesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +126,12 @@
 				FC4A51D9185292C4000104BD /* Main.storyboard */,
 				FC4A51DC185292C4000104BD /* RidersViewController.h */,
 				FC4A51DD185292C4000104BD /* RidersViewController.m */,
+				FC4A51FC1852C93D000104BD /* MapViewController.h */,
+				FC4A51FD1852C93D000104BD /* MapViewController.m */,
+				FC4A51FF1852CA37000104BD /* PeopleViewController.h */,
+				FC4A52001852CA37000104BD /* PeopleViewController.m */,
+				FC4A52021852CA97000104BD /* PlacesViewController.h */,
+				FC4A52031852CA97000104BD /* PlacesViewController.m */,
 				FC4A51DF185292C4000104BD /* Images.xcassets */,
 				FC4A51CE185292C4000104BD /* Supporting Files */,
 			);
@@ -250,9 +265,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC4A52041852CA97000104BD /* PlacesViewController.m in Sources */,
 				FC4A51DE185292C4000104BD /* RidersViewController.m in Sources */,
 				FC4A51D4185292C4000104BD /* main.m in Sources */,
 				FC4A51D8185292C4000104BD /* RidersAppDelegate.m in Sources */,
+				FC4A52011852CA37000104BD /* PeopleViewController.m in Sources */,
+				FC4A51FE1852C93D000104BD /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
