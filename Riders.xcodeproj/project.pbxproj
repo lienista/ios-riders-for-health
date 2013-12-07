@@ -25,6 +25,8 @@
 		FC4A52011852CA37000104BD /* PeopleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4A52001852CA37000104BD /* PeopleViewController.m */; };
 		FC4A52041852CA97000104BD /* PlacesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4A52031852CA97000104BD /* PlacesViewController.m */; };
 		FC4A52071852CD35000104BD /* SyncViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4A52061852CD35000104BD /* SyncViewController.m */; };
+		FC4A52091852D512000104BD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4A52081852D512000104BD /* CoreData.framework */; };
+		FC4A520B1852D51C000104BD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4A520A1852D51C000104BD /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		FC4A52031852CA97000104BD /* PlacesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacesViewController.m; sourceTree = "<group>"; };
 		FC4A52051852CD35000104BD /* SyncViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncViewController.h; sourceTree = "<group>"; };
 		FC4A52061852CD35000104BD /* SyncViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyncViewController.m; sourceTree = "<group>"; };
+		FC4A52081852D512000104BD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FC4A520A1852D51C000104BD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC4A520B1852D51C000104BD /* MapKit.framework in Frameworks */,
+				FC4A52091852D512000104BD /* CoreData.framework in Frameworks */,
 				FC4A51CA185292C4000104BD /* CoreGraphics.framework in Frameworks */,
 				FC4A51CC185292C4000104BD /* UIKit.framework in Frameworks */,
 				FC4A51C8185292C4000104BD /* Foundation.framework in Frameworks */,
@@ -113,6 +119,8 @@
 		FC4A51C6185292C4000104BD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FC4A520A1852D51C000104BD /* MapKit.framework */,
+				FC4A52081852D512000104BD /* CoreData.framework */,
 				FC4A51C7185292C4000104BD /* Foundation.framework */,
 				FC4A51C9185292C4000104BD /* CoreGraphics.framework */,
 				FC4A51CB185292C4000104BD /* UIKit.framework */,
